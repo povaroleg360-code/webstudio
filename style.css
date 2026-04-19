@@ -10,8 +10,9 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 0.78px;
+text-decoration: none;
 }
-.studio-header{
+.header-studio-header{
     color: #000;
 font-family: Raleway;
 font-size: 26px;
@@ -19,6 +20,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 0.78px;
+text-decoration: none;
 }
 .ul-a-1{
     color: #2196F3;
@@ -38,7 +40,7 @@ line-height: normal;
 letter-spacing: 0.28px;
 text-decoration: none;
 }
-.nav-ul{
+.nav-ul-header{
     list-style-type: none;
 }
 .effective-solutions{
@@ -129,6 +131,9 @@ footer{
     background-color: #2F303A;
     width: 1600px;
     height: 252px;
+}
+.footer-ul{
+    list-style-type: none;
 }
 .footer-header{
 color: #FFF;
@@ -263,5 +268,8 @@ line-height: 26px;
 letter-spacing: 0.48px;
 }
 .main-ul{
+    list-style-type: none;
+}
+.portfolio-ul{
     list-style-type: none;
 }

@@ -12,7 +12,7 @@ line-height: normal;
 letter-spacing: 0.78px;
 text-decoration: none;
 }
-.header-studio-header{
+.header-studio{
     color: #000;
 font-family: Raleway;
 font-size: 26px;
@@ -22,7 +22,7 @@ line-height: normal;
 letter-spacing: 0.78px;
 text-decoration: none;
 }
-.ul-a-1{
+.studio-a1{
     color: #2196F3;
 font-size: 14px;
 font-style: normal;
@@ -31,7 +31,7 @@ line-height: normal;
 letter-spacing: 0.28px;
 text-decoration: none;
 }
-.ul-a-2{
+.studio-a2{
     color: #212121;
 font-size: 14px;
 font-style: normal;
@@ -40,15 +40,15 @@ line-height: normal;
 letter-spacing: 0.28px;
 text-decoration: none;
 }
-.nav-ul-header{
+.studio-nav{
     list-style-type: none;
 }
-.effective-solutions{
+.main-effective-solutions{
     width: 1600.0px;
 height: 600.0px;
     background-color: #2F303A;
 }
-.ef-sol-title{
+.effective-title{
     flex-shrink: 0;
 color: #FFF;
 text-align: center;
@@ -62,7 +62,7 @@ justify-content: center;
 display: flex;
 align-items: center;
 }
-.ef-sol-button{
+.effective-button{
     border-radius: 4px;
 background: #2196F3;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -75,7 +75,7 @@ line-height: 30px;
 letter-spacing: 0.96px;
 justify-content: center;
 }
-.wwd-ul-h5{
+.desc-caption{
     color: #212121;
 font-size: 14px;
 font-style: normal;
@@ -84,18 +84,10 @@ line-height: normal;
 letter-spacing: 0.42px;
 text-transform: uppercase;
 }
-.wwd-ul-p{
-    color: #757575;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.42px;
-}
-.wwd-ul{
+.wedo-ul{
     list-style-type: none;
 }
-.wwd-ul-p{
+.desc-p{
     color: #757575;
 font-size: 14px;
 font-style: normal;
@@ -103,7 +95,7 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.42px;
 }
-.wwd-h4{
+.wedo-header{
     color: #212121;
 text-align: center;
 font-size: 36px;
@@ -112,18 +104,11 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 1.08px;
 }
-.wwd-img1{
-    width: 370.0px;
-height: 294.0px;
-}
-.wwd-ul-2{
+.wedo-ul{
     list-style-type: none;
 }
-.wwd-img2{
-        width: 370.0px;
-height: 294.0px;
-}
-.wwd-img3{
+
+.wedo-img{
         width: 370.0px;
 height: 294.0px;
 }
@@ -160,14 +145,14 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.42px;
 }
-.ot-ul-img{
+.team-img{
     width: 270.0px;
 height: 260.0px;
 }
-.ot-ul{
+.team-ul{
     list-style-type: none;
 }
-.ot-ul-h5{
+.team-caption{
     color: #212121;
 text-align: center;
 font-size: 16px;
@@ -176,7 +161,7 @@ font-weight: 500;
 line-height: normal;
 letter-spacing: 0.48px;
 }
-.ot-ul-p{
+.team-p{
     color: #757575;
 text-align: center;
 font-size: 16px;
@@ -268,8 +253,5 @@ line-height: 26px;
 letter-spacing: 0.48px;
 }
 .main-ul{
-    list-style-type: none;
-}
-.portfolio-ul{
     list-style-type: none;
 }

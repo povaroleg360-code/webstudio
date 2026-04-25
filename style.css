@@ -22,16 +22,8 @@ line-height: normal;
 letter-spacing: 0.78px;
 text-decoration: none;
 }
-.studio-a1{
-    color: #2196F3;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
-text-decoration: none;
-}
-.studio-a2{
+
+.header-link{
     color: #212121;
 font-size: 14px;
 font-style: normal;
@@ -40,15 +32,16 @@ line-height: normal;
 letter-spacing: 0.28px;
 text-decoration: none;
 }
-.studio-nav{
+.header-nav{
     list-style-type: none;
 }
-.main-effective-solutions{
-    width: 1600.0px;
-height: 600.0px;
+.header-list{
+    list-style-type: none;
+}
+.hero{
     background-color: #2F303A;
 }
-.effective-title{
+.hero-title{
     flex-shrink: 0;
 color: #FFF;
 text-align: center;
@@ -62,7 +55,10 @@ justify-content: center;
 display: flex;
 align-items: center;
 }
-.effective-button{
+.desc-list{
+    list-style-type: none;
+}
+.hero-button{
     border-radius: 4px;
 background: #2196F3;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -84,10 +80,10 @@ line-height: normal;
 letter-spacing: 0.42px;
 text-transform: uppercase;
 }
-.wedo-ul{
+.wedo-list{
     list-style-type: none;
 }
-.desc-p{
+.desc-text{
     color: #757575;
 font-size: 14px;
 font-style: normal;
@@ -104,10 +100,6 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 1.08px;
 }
-.wedo-ul{
-    list-style-type: none;
-}
-
 .wedo-img{
         width: 370.0px;
 height: 294.0px;
@@ -117,7 +109,7 @@ footer{
     width: 1600px;
     height: 252px;
 }
-.footer-ul{
+.footer-list{
     list-style-type: none;
 }
 .footer-header{
@@ -129,15 +121,16 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 0.78px;
 }
-.footer-p{
+.footer-address{
     color: #FFF;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.42px;
+text-decoration: none;
 }
-.footer-a{
+.footer-link{
     color: rgba(255, 255, 255, 0.60);
 font-size: 14px;
 font-style: normal;
@@ -149,7 +142,7 @@ letter-spacing: 0.42px;
     width: 270.0px;
 height: 260.0px;
 }
-.team-ul{
+.team-list{
     list-style-type: none;
 }
 .team-caption{
@@ -161,7 +154,7 @@ font-weight: 500;
 line-height: normal;
 letter-spacing: 0.48px;
 }
-.team-p{
+.team-text{
     color: #757575;
 text-align: center;
 font-size: 16px;
@@ -170,7 +163,19 @@ font-weight: 400;
 line-height: normal;
 letter-spacing: 0.48px;
 }
-.footer-header-span{
+.team-header{
+    color: #212121;
+text-align: center;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+}
+.footer-header{
+    text-decoration: none;
+}
+.footer-span{
     color: #2196F3;
     font-family: Raleway;
 font-size: 26px;

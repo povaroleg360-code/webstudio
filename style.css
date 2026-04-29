@@ -93,6 +93,7 @@ display: flex;
 align-items: center;
 margin-left: 452px;
 margin-right: 452px;
+margin-bottom: 30px;
 padding: 200px 0 0 0;
 }
 .desc-list{
@@ -113,7 +114,6 @@ font-weight: 700;
 line-height: 30px;
 letter-spacing: 0.96px;
 justify-content: center;
-margin-top: 350px;
 margin-bottom: 200px;
 margin-left: 692px;
 margin-right: 692px;
@@ -152,6 +152,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 1.08px;
+padding: 94px 0 50px 0;
 }
 .wedo-img{
         width: 370.0px;
@@ -224,6 +225,7 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.48px;
+margin-top: 30px;
 }
 .team-text{
     color: #757575;
@@ -233,6 +235,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: 0.48px;
+margin-top: 10px;
 }
 .team-header{
     color: #212121;
@@ -242,7 +245,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 1.08px;
-padding: 94px 0 0 0;
+padding: 94px 0 49px 0;
 }
 .footer-span{
     color: #2196F3;

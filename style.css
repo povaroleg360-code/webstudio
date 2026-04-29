@@ -371,13 +371,15 @@ margin: 94px 0 50px 0;
 .portfolio-item{
     width: calc(33.33% - 30px);
 }
-.portfolio-caption{
+.portfolio-link{
     color: #212121;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: 36px;
 letter-spacing: 1.08px;
+text-decoration: none;
+display: inline-block;
 }
 .portfolio-text{
     color: #757575;

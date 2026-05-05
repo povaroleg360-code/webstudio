@@ -4,6 +4,9 @@ font-family: roboto;
 }
 header{
     border-bottom: 1px solid #ECECEC;
+    width: 1170px;
+    height: 31px;
+    padding: 24px 215px 25px 215px;
 }
 .web-header{
     color: #2196F3;
@@ -34,7 +37,7 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 0.78px;
 text-decoration: none;
-padding: 24px 0 25px 215px;
+
 }
 .header-link2{
     color: #757575;
@@ -44,7 +47,6 @@ font-weight: 500;
 line-height: normal;
 letter-spacing: 0.28px;
 text-decoration: none;
-padding: 32px 215px 32px 0;
 }
 
 .header-link{
@@ -55,7 +57,6 @@ font-weight: 500;
 line-height: normal;
 letter-spacing: 0.28px;
 text-decoration: none;
-padding: 32px 0 32px 0;
 }
 .header-nav{
     list-style-type: none;
@@ -69,14 +70,16 @@ padding: 32px 0 32px 0;
 }
 .header-container{
     display: flex;
-  justify-content: space-between;
   align-items: center;
+  height: 31px;
+  width: 1170px;
 }
 .header-list2{
     list-style-type: none;
     gap: 20px;
     justify-content: end;
     display: flex;
+    margin-left: 344px;
 }
 .hero{
     background-color: #2F303A;

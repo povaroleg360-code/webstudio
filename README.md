@@ -1,2 +1,2 @@
 # webstudio
-# I made this project to actually turn a Figma design into a website with the css I am learning, but am writing this to let me commit the changes I made to it because it does not let me do so.
+# # This project was made as a task for my programming course at GoITeens Ukraine.

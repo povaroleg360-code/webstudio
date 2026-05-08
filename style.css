@@ -185,6 +185,7 @@ letter-spacing: 0.42px;
     height: 98px;
     display: flex;
     align-items: center;
+    padding-top: 94px;
 }
 .desc-wrap{
     width: 270px;

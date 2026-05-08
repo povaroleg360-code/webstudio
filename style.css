@@ -1,4 +1,8 @@
-
+div{
+    width: 1200px; 
+    padding-left: 15px;
+    padding-right: 15px;
+}
 body{
 font-family: roboto;
 }

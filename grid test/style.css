@@ -1,0 +1,30 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    outline: 10px solid red;
+}
+.list{
+    display: grid;
+    /* grid-template-columns: 400px 1fr 1fr; */
+    grid-template-columns: repeat(3, 1fr);
+    list-style-type: none;
+    gap: 10px;
+}
+.item-a, .item-b, .item-c{
+    color: #FFF;
+    font-size: 50px;
+    background-color: gray;
+    height: 200px;
+}
+/* .item-a{
+    grid-column: 1/1;
+    grid-row: 1/1;
+}
+.item-b{
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+.item-c{
+    grid-column: 3/3;
+    grid-row: 3/3;
+} */
